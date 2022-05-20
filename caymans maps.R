@@ -146,6 +146,7 @@ lilcayMap <- ggplot() +
            dist_unit = "km", height = 0.3, st.bottom = F, st.dist = 0.5, st.size = 3,
            transform = TRUE, model = "WGS84") +
   annotate("point", x = -80.122850, y = 19.652769, shape = 24, size = 5) +
+  annotate("point", x = -80.07072, y = 19.68983, shape = 5, size = 5) +
   geom_label(data = hpLocation, aes(label = label,
                                       x = (long),
                                      y = (lat + 0.0045)), size = 3.5) +
