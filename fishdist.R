@@ -56,5 +56,9 @@ totMig <- dist1 + totDist.8 + totDist.10
 
 ### average migration ###
 
-avgMig <- totMig/3
+avgMig <- totMig/10
+sd.singmig <- sd(c(dist1, rep(dist8, 3), rep(dist10.1, 2), rep(dist10.2, 3), dist10.3))
+
+avgMig.tot <- totMig/3
+sd.tot <- sd(c(dist1, totDist.8, totDist.10))
 
